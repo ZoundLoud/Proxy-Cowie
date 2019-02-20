@@ -7,14 +7,23 @@
 } */
 
 #player {
-  position: absolute;
-}
-
-.bottom {
-  display: flex;
-  margin-top: 20px;
+  margin: auto;
 }
 
 #description {
-  display: flex;
+  margin-left: 62px;
 }
+
+#commentSection {
+  width: 64%;
+  margin-left: 62px;
+}
+
+#app {
+  position: absolute;
+  top: 160px;
+  right: -88px;
+  bottom: auto;
+  width: 80px;
+  height: 600px;
+};
